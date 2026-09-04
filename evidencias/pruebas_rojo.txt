@@ -1,0 +1,14 @@
+Comando: python -m pytest tests/test_aceptacion.py -v --color=no
+
+Pruebas de aceptación proporcionadas por la docente, antes de implementar:
+
+test_aceptacion_crear_evento_inicia_sin_entradas_vendidas FAILED
+test_aceptacion_vender_entradas_dentro_del_aforo FAILED
+test_aceptacion_no_se_puede_vender_mas_entradas_que_el_aforo FAILED
+test_aceptacion_no_se_puede_vender_a_un_evento_inexistente FAILED
+test_aceptacion_no_se_puede_vender_cantidad_invalida FAILED
+test_aceptacion_calculo_de_total_con_descuento FAILED
+test_aceptacion_descuento_invalido_lanza_error FAILED
+
+Resultado: 7 failed in 0.03s
+Causa inicial: NotImplementedError en el código de partida.

@@ -1,0 +1,30 @@
+Comando: python -m pytest -v --color=no
+
+Pruebas de aceptación proporcionadas por la docente:
+
+test_aceptacion_crear_evento_inicia_sin_entradas_vendidas PASSED
+test_aceptacion_vender_entradas_dentro_del_aforo PASSED
+test_aceptacion_no_se_puede_vender_mas_entradas_que_el_aforo PASSED
+test_aceptacion_no_se_puede_vender_a_un_evento_inexistente PASSED
+test_aceptacion_no_se_puede_vender_cantidad_invalida PASSED
+test_aceptacion_calculo_de_total_con_descuento PASSED
+test_aceptacion_descuento_invalido_lanza_error PASSED
+
+Pruebas unitarias escritas para el proyecto:
+
+test_evento_guarda_datos_e_inicia_sin_ventas PASSED
+test_entradas_disponibles_se_calculan_con_las_ventas PASSED
+test_hay_disponibilidad_respeta_el_aforo_restante PASSED
+test_registrar_evento PASSED
+test_registrar_evento_repetido_lanza_error PASSED
+test_vender_entradas_exito PASSED
+test_vender_mas_entradas_de_las_disponibles PASSED
+test_vender_cero_o_menos_entradas[0] PASSED
+test_vender_cero_o_menos_entradas[-1] PASSED
+test_vender_para_evento_inexistente_lanza_error PASSED
+test_descuento_por_cantidad_no_registra_venta PASSED
+test_descuento_invalido[-1] PASSED
+test_descuento_invalido[101] PASSED
+test_estado_de_ventas_se_conserva_entre_compras PASSED
+
+Resultado: 21 passed in 0.03s
